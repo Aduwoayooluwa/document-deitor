@@ -1,4 +1,10 @@
-export const navItems = [
+interface ItemTypes  {
+    title: string,
+    to: string,
+    id: string
+}
+
+export const navItems:ItemTypes[] = [
     {
         title: 'Home',
         to: "/",
